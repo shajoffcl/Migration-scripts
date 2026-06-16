@@ -1,0 +1,83 @@
+package_name,status,reason,mode
+Thrills of Bali for Two,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Bali Funventure,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Island Highs,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Bali Adventure Highs,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Beach Bliss for Two,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Bali Beach Family Fun,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+"Sun, Surf & the Crew",error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Bali Island Escape,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Jewels of Nusa Penida,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Seminyak Escape,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Kuta Family Fun,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Urban Bali with the Crew,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Bali City Explorer,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Heart of Bali,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Bali Heritage Quest,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Tribe Culture Trek,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Bali Cultural Discovery,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Grandeur of Bali,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Bali Premium Family Retreat,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+The Curated Bali Experience,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Bespoke Bali Retreat,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Highland Love Escape,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Bali Highland Family Adventure,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Summit Seekers,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Volcanic Trails,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Dazzling Bali Nights,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Bali Night Lights,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Island Beats,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Bali After Dark,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+A Balinese Love Story,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Paradise for Two,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Bali Love Escape,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Tropical Love Escape,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Seminyak Style Escape,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Bali Family Spree,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Retail Therapy in Bali,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Bali Shopper's Dream,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Bliss in Bali,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Bali Family Unwind,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Chill & Thrill in Bali,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Bali Serenity,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Ancient Temples for Two,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Balinese Heritage Journey,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Explorers of Ancient Bali,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Bali Heritage Discovery,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Flavours of Bali,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Bali Culinary Family Adventure,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Foodie Tribe,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Bali Culinary Journey,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Tropical Nature Escape,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Bali Nature Quest,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Into the Wild with the Crew,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Into the Wild,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Wildlife Wonders of Bali,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Bali Wild Kingdom,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Tribe Safari,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Bali Wildlife Explorer,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Sacred Bali,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Temples of Bali,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Spiritual Seekers,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Inner Peace in Bali,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Cool Highlands of Bali,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Bali Highland Discovery,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Highland Trek with the Crew,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Bali Highland Escape,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Bali Drive & Romance,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Bali Self-Drive Family Explorer,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Road Cruise with the Crew,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Bali Wanderer,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Volcanic Escape for Two,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Volcanic Bali Family Discovery,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Rugged Bali with the Crew,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Volcanic Bali Explorer,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Bali Road Romance,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Epic Bali Family Road Trip,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Cross-Island Adventure,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Bali Road Diaries,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Best of Bali for Two,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Best of Bali with Family,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Best of Bali with the Crew,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Best of Bali,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
+Essence of Bali,error,PackageMigrate.build_hotel_item() takes 1 positional argument but 2 were given,dry_run
