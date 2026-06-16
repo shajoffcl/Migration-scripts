@@ -469,7 +469,7 @@ load_dotenv()
 
 # ----------------------------- Run configuration ----------------------------
 # Flip this to False when you want to actually write to the DB.
-DRY_RUN = False
+DRY_RUN = True
 
 
 
@@ -481,6 +481,8 @@ REPORTS_DIR = os.path.join(THIS_DIR, "reports")
 MONGO_URI = os.getenv("MONGO_URI")
 PACKAGE_ITINERARY_DB = os.getenv("PACKAGE_ITINERARY_DB") or "ht_package_itinerary_db"
 LOCATION_DB = os.getenv("LOCATION_DB") or "ht_location_db"
+ACTIVITIES_DB = os.getenv("ACTIVITIES_DB") or "ht_activity_db"
+TRANSFER_DB = os.getenv("TRANSFER_DB") or "ht_transfer_db"
 
 PACKAGE_IMAGE_BASE_URL = "https://cdn.holidaytribe.ai/website/package"
 
@@ -495,13 +497,15 @@ CITY_MAPPING = {
 class LocationCache:
     """Small in-memory cache to avoid repeated lookups for the same city/country."""
 
-    def __init__(self, city_coll, country_coll, continent_coll) -> None:
+    def __init__(self, city_coll, country_coll, continent_coll, destination_coll) -> None:
         self.city_coll = city_coll
         self.country_coll = country_coll
         self.continent_coll = continent_coll
+        self.destination_coll = destination_coll
         self._city_cache: dict[str, Optional[dict]] = {}
         self._country_cache: dict[str, Optional[dict]] = {}
         self._continent_cache: dict[str, Optional[dict]] = {}
+        self._destination_cache: dict[str, Optional[dict]] = {}
 
     def city(self, name: str) -> Optional[dict]:
         name = (name or "").strip()
@@ -539,6 +543,15 @@ class LocationCache:
         self._country_cache[name] = doc
         return doc
     
+    def countryById(self, id: ObjectId) -> Optional[dict]:
+        if not id:
+            return None
+        if id in self._country_cache:
+            return self._country_cache[id]
+        doc = self.country_coll.find_one({"_id": id})
+        self._country_cache[id] = doc
+        return doc
+    
     def continent(self, name: str) -> Optional[dict]:
         name = (name or "").strip()
         if not name:
@@ -548,7 +561,77 @@ class LocationCache:
         doc = self.continent_coll.find_one({"name": name})
         self._continent_cache[name] = doc
         return doc
+    
+    def continentById(self, id: ObjectId) -> Optional[dict]:
+        if not id:
+            return None
+        if id in self._continent_cache:
+            return self._continent_cache[id]
+        doc = self.continent_coll.find_one({"_id": id})
+        self._continent_cache[id] = doc
+        return doc
 
+    def destination(self, name: str) -> Optional[dict]:
+        name = (name or "").strip()
+        if not name:
+            return None
+        if name in self._destination_cache:
+            return self._destination_cache[name]
+        doc = self.destination_coll.find_one({"name": name})
+        self._destination_cache[name] = doc
+        return doc
+
+
+class ActivityCache:
+    """Small in-memory cache to avoid repeated lookups for the same activity."""
+
+    def __init__(self, activity_coll) -> None:
+        self.activity_coll = activity_coll
+        self._activity_cache: dict[str, Optional[dict]] = {}
+
+    def activity(self, code: str) -> Optional[dict]:
+        code = (code or "").strip()
+        if not code:
+            return None
+        if code in self._activity_cache:
+            return self._activity_cache[code]
+        doc = self.activity_coll.find_one({"provider_info.cms.activityCode": code})
+        self._activity_cache[code] = doc
+        return doc
+
+    def activityById(self, id: ObjectId) -> Optional[dict]:
+        if not id:
+            return None
+        if id in self._activity_cache:
+            return self._activity_cache[id]
+        doc = self.activity_coll.find_one({"_id": id})
+        self._activity_cache[id] = doc
+        return doc
+class TransferCache:
+    """Small in-memory cache to avoid repeated lookups for the same transfer."""
+
+    def __init__(self, transfer_coll) -> None:
+        self.transfer_coll = transfer_coll
+        self._transfer_cache: dict[str, Optional[dict]] = {}
+
+    def transfer(self, code: str) -> Optional[dict]:
+        code = (code or "").strip()
+        if not code:
+            return None
+        if code in self._transfer_cache:
+            return self._transfer_cache[code]
+        doc = self.transfer_coll.find_one({"jarvis_id": code})
+        self._transfer_cache[code] = doc
+        return doc
+
+    def transferById(self, id: ObjectId) -> Optional[dict]:
+        if not id:
+            return None
+        if id in self._transfer_cache:
+            return self._transfer_cache[id]
+        doc = self.transfer_coll.find_one({"_id": id})
+        self._transfer_cache[id] = doc
+        return doc
 # ------------------------------- Utilities ----------------------------------
 
 def setup_logging() -> None:
@@ -608,13 +691,8 @@ def parse_sheet_images_code(raw: Any) -> Optional[str]:
     return url_match.group(1).strip()
 
 
-def resolve_hero_image(row: dict[str, Any], transfer_code: str) -> str:
-    # """Hero image URL: sheet images column first, else transfer jarvis ID."""
-    # image_code = parse_sheet_images_code(row.get("images"))
-    # if image_code:
-    #     return build_package_image_cdn_url(image_code)
-    # return build_package_image_cdn_url(package_code)
-    return ""
+def build_image_url(image_code: str) -> str:
+    return f"{PACKAGE_IMAGE_BASE_URL}/{image_code}.jpg"
 
 def build_travel_theme(raw: str) -> list[str]:
     return split_csv_list(raw)
@@ -633,7 +711,73 @@ def build_slug(package_name: str) -> str:
     text = re.sub(r"\s+", "-", text.strip())
     return text.strip("-")
 
-def build_package_itinerary_doc(package_metadata_row: dict[str, Any], day_wise_details: list[dict[str, Any]]) -> dict[str, Any]:
+def build_destinations(cities: list[str], location_cache: LocationCache) -> dict[str, Any]:
+    destinations: dict[str, Any] = {}
+    for city in cities:
+        destination_doc = location_cache.destination(city)
+        if not destination_doc:
+            raise ValueError(f"Destination not found: {city}")
+        
+        country_id = destination_doc["country_id"]
+        country_doc = location_cache.countryById(country_id)
+        if not country_doc:
+            raise ValueError(f"Country not found: {country_id}")
+
+        destinations[destination_doc["name"]] = {
+          "destination_id": destination_doc["_id"],
+          "name": destination_doc["name"],
+          "image_url": None,
+          "tags": [],
+          "summary": None,
+          "city_id": destination_doc["city_id"],
+          "country": {
+            "_id": country_doc["_id"],
+            "name": country_doc["name"],
+          }
+        }
+    return destinations
+
+def build_destination_with_country_and_continent(cities: list[str], location_cache: LocationCache) -> dict[str, Any]:
+    destinations: list[dict[str, Any]] = []
+    countries: list[dict[str, Any]] = []
+    continents: list[dict[str, Any]] = []
+    for city in cities:
+        destination_doc = location_cache.destination(city)
+        if not destination_doc:
+            raise ValueError(f"Destination not found: {city}")
+        country_id = destination_doc["country_id"]
+        country_doc = location_cache.countryById(country_id)
+        if not country_doc:
+            raise ValueError(f"Country not found: {country_id}")
+        continent_id = country_doc["continent_id"]
+        continent_doc = location_cache.continentById(continent_id)
+        if not continent_doc:
+            raise ValueError(f"Continent not found: {continent_id}")
+        destinations.append({
+          "_id": destination_doc["_id"],
+          "name": destination_doc["name"]
+        })
+        countries.append({
+          "_id": country_doc["_id"],
+          "name": country_doc["name"],
+        })
+        continents.append({
+          "_id": continent_doc["_id"],
+          "name": continent_doc["name"],
+        })
+    return {
+        "destinations": destinations,
+        "countries": countries,
+        "continents": continents,
+    }
+
+
+def build_package_itinerary_doc(package_metadata_row: dict[str, Any], day_wise_details: list[dict[str, Any]], location_cache: LocationCache) -> dict[str, Any]:
+    slug = build_slug(package_metadata_row["Package_Name"])
+    unique_cities = set()
+    for day_wise_detail in day_wise_details:
+        unique_cities.add(day_wise_detail["city"])
+    destinations, countries, continents = build_destination_with_country_and_continent(unique_cities, location_cache)
     return {
         "title": package_metadata_row["Package_Name"],
         "user_type": "ADMIN",
@@ -647,58 +791,90 @@ def build_package_itinerary_doc(package_metadata_row: dict[str, Any], day_wise_d
         "is_customisable": True,
         "overall_pace": None, # AI support required for this field
         "highlights": build_highlights(package_metadata_row["Package Highlights (usp)"]),
-        "img_url": None, # TODO: add image url
-        "img_alt": None, # TODO: add image alt
+        "img_url": build_image_url(slug),
+        "img_alt": package_metadata_row["Package_Name"],
         "seo_info": None, # AI support required for this field
         "day_wise_details": day_wise_details,
         "travel_insurance": None, # TODO: add travel insurance
         "visa_assistance": None, # TODO: add visa assistance
-        "destination": None, # TODO: add destination
-        "destinations": None, # TODO: add destinations
-        "countries": None, # TODO: add countries
-        "continents": None, # TODO: add continents
-        "max_flexible_days": None,
-        "slug": build_slug(package_metadata_row["Package_Name"]),
+        "destination": [*destinations, *countries, *continents],
+        "destinations": build_destinations(unique_cities, location_cache),
+        "countries": countries,
+        "continents": continents,
+        "slug": slug,
         "package_id": None,
         "created_at": utcnow(),
         "updated_at": utcnow(),
     }
 
-def build_activity_item(row: dict[str, Any]) -> dict[str, Any]:
+def build_activity_item(row: dict[str, Any], activity_cache: ActivityCache) -> dict[str, Any]:
+    code = clean_str(row.get("Code"))
+    if not code:
+        raise ValueError(f"Activity code is required: {row}")
+    activity_doc = activity_cache.activity(code)
+    if not activity_doc:
+        raise ValueError(f"Activity not found: {code}")
     return {
-        "module": "ACTIVITY",
-        "module_id": 123,
-        "name": "Activity 123",
+      "_id": activity_doc["_id"],
+      "module": "ACTIVITY",
+      "module_id": code,
+      "name": activity_doc["title"],
+      "tags": activity_doc["tags"],
+      "description": activity_doc["description"],
+      "is_paid": True,
+      "why_this": None, # AI support required for this field
+      "image_url": activity_doc["images"][0]["img_url"],
+      "duration": activity_doc["duration"],
+      "isCmsActivity": True,
+      "inclusion": activity_doc["inclusions"],
+      "exclusion": activity_doc["exclusions"],
+      "cancellation": activity_doc["cancellation"],
     }
 
-def build_transfer_item(row: dict[str, Any]) -> dict[str, Any]:
+def build_transfer_item(row: dict[str, Any], transfer_cache: TransferCache) -> dict[str, Any]:
+    code = clean_str(row.get("Code"))
+    if not code:
+        raise ValueError(f"Transfer code is required: {row}")
+    transfer_doc = transfer_cache.transfer(code)
+    if not transfer_doc:
+        raise ValueError(f"Transfer not found: {code}")
     return {
-        "module": "TRANSFER",
-        "module_id": 123,
-        "name": "Transfer 123",
+      "_id": transfer_doc["_id"],
+      "module": "TRANSFER",
+      "module_id": code,
+      "title": transfer_doc["title"],
+      "transfer_type": transfer_doc["transfer_type"],
+      "image_url": transfer_doc["hero_image"],
+      "type": None, # TODO: add type
+      "sub_type": None, # TODO: add sub type
+      "from_location": transfer_doc["pickup"],
+      "to_location": transfer_doc["dropoff"],
+      "transfer_category": 'WITHIN',
+      "cancellation": transfer_doc["cancellation_policy"],
     }
 
 def build_hotel_item(row: dict[str, Any]) -> dict[str, Any]:
+  # filter, city_id and star_rating and is_recommended + sorting by price return random one from top 5
     return {
         "module": "HOTEL",
         "module_id": 123,
         "name": "Hotel 123",
     }
 
-def build_itinerary_item(row: dict[str, Any]) -> dict[str, Any]:
+def build_itinerary_item(row: dict[str, Any], activity_cache: ActivityCache, transfer_cache: TransferCache) -> dict[str, Any]:
     item_type = row["Type"].upper()
     match item_type:
         case "ACTIVITY":
-            return build_activity_item(row)
+            return build_activity_item(row, activity_cache)
         case "TRANSFER":
-            return build_transfer_item(row)
+            return build_transfer_item(row, transfer_cache)
         case "HOTEL":
             return build_hotel_item(row)
         case _:
             raise ValueError(f"Invalid item type: {item_type}")
 
 
-def build_day_wise_details(package_itinerary_row: list[dict[str, Any]], location_cache: LocationCache) -> list[dict[str, Any]]:
+def build_day_wise_details(package_itinerary_row: list[dict[str, Any]], location_cache: LocationCache, activity_cache: ActivityCache, transfer_cache: TransferCache) -> list[dict[str, Any]]:
     day_wise_dict: dict[int, dict[str, Any]] = {}
 
     for row in package_itinerary_row:
@@ -707,7 +883,7 @@ def build_day_wise_details(package_itinerary_row: list[dict[str, Any]], location
 
         if existing_day_details:
             itinerary_items: list[dict[str, Any]] = existing_day_details["itinerary"]
-            itinerary_item = build_itinerary_item(row)
+            itinerary_item = build_itinerary_item(row, activity_cache, transfer_cache)
             itinerary_items.append(itinerary_item)
         else:
             city_doc = location_cache.city(row["City"])
@@ -715,7 +891,7 @@ def build_day_wise_details(package_itinerary_row: list[dict[str, Any]], location
                 raise ValueError(f"City not found: {row['City']}")
 
             itinerary_items: list[dict[str, Any]] = []
-            itinerary_item = build_itinerary_item(row)
+            itinerary_item = build_itinerary_item(row, activity_cache, transfer_cache)
             itinerary_items.append(itinerary_item)
 
             day_wise_dict[day_index] = {
@@ -729,7 +905,7 @@ def build_day_wise_details(package_itinerary_row: list[dict[str, Any]], location
 
 # ----------------------------- DB connections -------------------------------
 
-def get_db_clients() -> tuple[MongoClient, Any, Any]:
+def get_db_clients() -> tuple[MongoClient, Any, Any, Any, Any]:
     if not MONGO_URI:
         raise RuntimeError("MONGO_URI env var is not set")
     client = MongoClient(
@@ -740,7 +916,9 @@ def get_db_clients() -> tuple[MongoClient, Any, Any]:
     )
     package_itinerary_db = client[PACKAGE_ITINERARY_DB]
     location_db = client[LOCATION_DB]
-    return client, package_itinerary_db, location_db
+    activities_db = client[ACTIVITIES_DB]
+    transfer_db = client[TRANSFER_DB]
+    return client, package_itinerary_db, location_db, activities_db, transfer_db
 
 
 # ------------------------------ Main pipeline -------------------------------
@@ -788,7 +966,6 @@ REPORT_HEADERS = [
     "package_name",
     "status",
     "reason",
-    "package_id",
     "mode",
 ]
 
@@ -797,7 +974,7 @@ def write_report(rows: list[dict[str, Any]], dry_run: bool, log: logging.Logger)
     os.makedirs(REPORTS_DIR, exist_ok=True)
     mode = "dry_run" if dry_run else "live"
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    path = os.path.join(REPORTS_DIR, f"transfer_migration_report_{mode}_{timestamp}.csv")
+    path = os.path.join(REPORTS_DIR, f"package_migration_report_{mode}_{timestamp}.csv")
     with open(path, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=REPORT_HEADERS)
         writer.writeheader()
@@ -826,21 +1003,46 @@ def run(dry_run: bool) -> None:
         log.error("Package metadata rows: %d | Package itinerary rows: %d", len(package_metadata_rows), len(package_itinerary_rows))
         return
 
-    client, package_itinerary_db, location_db = get_db_clients()
+    client, package_itinerary_db, location_db, activities_db, transfer_db = get_db_clients()
+
     package_itinerary_coll = package_itinerary_db["package_itinerary"]
     country_coll = location_db["country"]
     city_coll = location_db["city"]
     continent_coll = location_db["continent"]
+    destination_coll = location_db["destination"]
 
-    location_cache = LocationCache(city_coll, country_coll, continent_coll)
+    activity_coll = activities_db["activity"]
+    transfer_coll = transfer_db["within_city_transfer"]
 
+    location_cache = LocationCache(city_coll, country_coll, continent_coll, destination_coll)
+    activity_cache = ActivityCache(activity_coll)
+    transfer_cache = TransferCache(transfer_coll)
+
+    report_rows: list[dict[str, Any]] = []
+
+    insert_package_docs: list[dict[str, Any]] = []
     for package_metadata_row in package_metadata_rows:
-        package_name = package_metadata_row["Package_Name"]
-        package_itinerary_row = package_itinerary_rows[package_name]
-
-        day_wise_details = build_day_wise_details(package_itinerary_row, location_cache)
-        package_doc = build_package_itinerary_doc(package_metadata_row, day_wise_details)
-        print(package_doc, 'package_doc')
+        try:
+            package_name = package_metadata_row["Package_Name"]
+            package_itinerary_row = package_itinerary_rows[package_name]
+            day_wise_details = build_day_wise_details(package_itinerary_row, location_cache, activity_cache, transfer_cache)
+            package_doc = build_package_itinerary_doc(package_metadata_row, day_wise_details, location_cache)
+            insert_package_docs.append(package_doc)
+            report_rows.append({
+                "package_name": package_name,
+                "status": "success",
+                "reason": "",
+                "mode": "dry_run" if dry_run else "live",
+            })
+        except Exception as e:
+            log.error(f"Error processing package: {e}")
+            report_rows.append({
+                "package_name": package_name,
+                "status": "error",
+                "reason": str(e),
+                "mode": "dry_run" if dry_run else "live",
+            })
+            continue
 
         if dry_run:
             continue
@@ -851,11 +1053,16 @@ def run(dry_run: bool) -> None:
 
     if dry_run:
         log.info("DRY RUN: skipping all writes. Set DRY_RUN=False at the top of the file to insert.")
-        # write_report(report_rows, dry_run=True, log=log)
+        if insert_package_docs:
+            log.info("Sample package doc (insert):\n%s", insert_package_docs[0])
+        write_report(report_rows, dry_run=True, log=log)
         client.close()
         return
+    if insert_package_docs:
+        result = package_itinerary_coll.insert_many(insert_package_docs, ordered=False)
+        log.info("Inserted %d package docs", len(result.inserted_ids))
 
-    # write_report(report_rows, dry_run=False, log=log)
+    write_report(report_rows, dry_run=False, log=log)
     client.close()
     log.info("Done.")
 
