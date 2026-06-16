@@ -1019,8 +1019,8 @@ def run(dry_run: bool) -> None:
     transfer_cache = TransferCache(transfer_coll)
 
     report_rows: list[dict[str, Any]] = []
-
     insert_package_docs: list[dict[str, Any]] = []
+
     for package_metadata_row in package_metadata_rows:
         try:
             package_name = package_metadata_row["Package_Name"]
@@ -1042,9 +1042,6 @@ def run(dry_run: bool) -> None:
                 "reason": str(e),
                 "mode": "dry_run" if dry_run else "live",
             })
-            continue
-
-        if dry_run:
             continue
 
 
