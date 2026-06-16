@@ -1,0 +1,52 @@
+activity_code,title,status,reason,activity_id,city_csv,city_resolved,country_csv,country_resolved,price_rows,mode
+TRA_57764,Tokyo Disneyland 1-Day Ticket,inserted,,6a070ac50514b9b2e2559515,Tokyo,Tokyo,Japan,Japan,4,live
+TRA_57765,Tokyo DisneySea 1-Day Ticket,inserted,,6a070ac60514b9b2e255951b,Tokyo,Tokyo,Japan,Japan,4,live
+TRA_57766,Universal Studios Japan 1-day Studio Pass,inserted,,6a070ac60514b9b2e2559521,Osaka,Osaka,Japan,Japan,4,live
+TRA_57767,Osaka Castle Museum Ticket,inserted,,6a070ac70514b9b2e2559527,Osaka,Osaka,Japan,Japan,4,live
+TRA_57768,26-hour Osaka Metro Pass,inserted,,6a070ac70514b9b2e255952d,Osaka,Osaka,Japan,Japan,3,live
+TRA_57769,Osaka Metro & Osaka City Bus Pass · 2-day · E-ticket,inserted,,6a070ac70514b9b2e2559532,Osaka,Osaka,Japan,Japan,2,live
+TRA_57770,48-hour Osaka Metro Pass,inserted,,6a070ac80514b9b2e2559536,Osaka,Osaka,Japan,Japan,3,live
+TRA_57771,Osaka Wonder Cruise(Dotonbori Route),inserted,,6a070ac80514b9b2e255953b,Osaka,Osaka,Japan,Japan,3,live
+TRA_57772,Hiroshima & Miyajima 1 Day Bus Tour With lunch With Roundtrip by Shinkasen from Osaka,inserted,,6a070ac80514b9b2e2559540,Osaka,Osaka,Japan,Japan,3,live
+TRA_57773,Tokyo Skytree Ticket(Tembo Deck & Galleria),inserted,,6a070ac80514b9b2e2559545,Tokyo,Tokyo,Japan,Japan,3,live
+TRA_57774,Hakone Sightseeing Cruise(Hakonemachi to Togendai),inserted,,6a070ac80514b9b2e255954a,Hakone,Hakone,Japan,Japan,3,live
+TRA_57775,Hakone Komagatake Ropeway Round-Trip Ticket,inserted,,6a070ac90514b9b2e255954f,Hakone,Hakone,Japan,Japan,3,live
+TRA_57776,Umeda Sky Building & Kuchu Teien Observatory Ticket in Osaka,inserted,,6a070aca0514b9b2e2559554,Osaka,Osaka,Japan,Japan,3,live
+TRA_57777,Tokyo Skytree 1 Day Tour from Nishi Shinjuku LOVE statue (With Lunch),inserted,,6a070acc0514b9b2e2559559,Tokyo,Tokyo,Japan,Japan,3,live
+TRA_57778,Kyoto and Nara Day Tour(Optional upgrade to Wagyu “Kobe Beef” lunch),inserted,,6a070acd0514b9b2e255955e,Osaka,Osaka,Japan,Japan,3,live
+TRA_57779,Tokyo Mt. Fuji & Hakone Full-Day Guided Tour(Return by Motorcoach),inserted,,6a070acd0514b9b2e2559563,Tokyo,Tokyo,Japan,Japan,3,live
+TRA_57780,Universal Studios Japan Express Pass,inserted,,6a070acd0514b9b2e2559568,Osaka,Osaka,Japan,Japan,2,live
+TRA_57781,Tokyo Tower Ticket,inserted,,6a070ace0514b9b2e255956c,Tokyo,Tokyo,Japan,Japan,5,live
+TRA_57782,Hiroshima & Miyajima 1 Day Bus Tour(Round-Trip by Shinkansen from Osaka),inserted,,6a070ace0514b9b2e2559573,Osaka,Osaka,Japan,Japan,3,live
+TRA_57783,Kyoto Amanohashidate & Miyama Village: Includes boat cruise + cable car + crab lunch (pickup/drop-off in Osaka or Kyoto),inserted,,6a070ace0514b9b2e2559578,"Osaka, Kyoto","Osaka, Kyoto",Japan,Japan,3,live
+TRA_57784,Tokyo Subway Ticket(24 hours · None · E-ticket ),inserted,,6a070ace0514b9b2e255957d,Tokyo,Tokyo,Japan,Japan,3,live
+TRA_57785,Tokyo Subway Ticket(48 hours · None · E-ticket ),inserted,,6a070acf0514b9b2e2559582,Tokyo,Tokyo,Japan,Japan,3,live
+TRA_57786,"Tokyo City, Private Customized Day Trip with English-speaking Driver",inserted,,6a070acf0514b9b2e2559587,Tokyo,Tokyo,Japan,Japan,1,live
+TRA_57790,Mount Fuji One-Day Tour: Kawaguchiko Tenjozan Park with Ropeway & Arakurayama Sengen Park & Nichikawa Clock Shop & Lawson Convenience Store & Oishi Park (Departing from Tokyo),inserted,,6a070acf0514b9b2e255958a,Tokyo,Tokyo,Japan,Japan,1,live
+TRA_57791,Hiroshima & Miyajima 1 Day Bus Tour With lunch(From Hiroshima),inserted,,6a070acf0514b9b2e255958d,Hiroshima,Hiroshima,Japan,Japan,3,live
+TRA_57792,Hiroshima & Miyajima 1 Day Bus Tour With lunch(From Fukuoka: Round-Trip by Shinkansen),inserted,,6a070ad00514b9b2e2559592,Fukuoka,Fukuoka,Japan,Japan,3,live
+TRA_57793,Hop-On Hop-Off Tokyo Bus by Skyhop Bus,inserted,,6a070ad00514b9b2e2559597,Tokyo,Tokyo,Japan,Japan,2,live
+TRA_57794,Kyoto & Osaka Sightseeing Pass by Keihan Railway,inserted,,6a070ad00514b9b2e255959b,"Kyoto, Osaka","Kyoto, Osaka",Japan,Japan,1,live
+TRA_57795,Universal Studios Japan Express Pass(4 - Backdrop & Race),inserted,,6a070ad00514b9b2e255959e,Osaka,Osaka,Japan,Japan,2,live
+TRA_57796,Universal Studios Japan Express Pass(7 - Minecart & Selection ticket),inserted,,6a070ad10514b9b2e25595a2,Osaka,Osaka,Japan,Japan,2,live
+TRA_57797,Universal Studios Japan Express Pass( 4 - Flying Dinosaur & Jurassic Park),inserted,,6a070ad10514b9b2e25595a6,Osaka,Osaka,Japan,Japan,2,live
+TRA_57798,Tokyo round trip Nikko 10-hour car service - customizable itinerary,inserted,,6a070ad10514b9b2e25595aa,Tokyo,Tokyo,Japan,Japan,1,live
+TRA_57799,10-hour round trip car service from Tokyo to Mount Fuji - Customizable itinerary,inserted,,6a070ad20514b9b2e25595ad,Tokyo,Tokyo,Japan,Japan,1,live
+TRA_57800,10-hour car service in Tokyo,inserted,,6a070ad20514b9b2e25595b0,Tokyo,Tokyo,Japan,Japan,1,live
+TRA_57801,Tokyo Private Customizable Full-Day Tour,inserted,,6a070ad20514b9b2e25595b3,Tokyo,Tokyo,Japan,Japan,1,live
+TRA_57802,The Sumo Hall Hirakuza Osaka admission ticket (Osaka),inserted,,6a070ad20514b9b2e25595b6,Osaka,Osaka,Japan,Japan,3,live
+TRA_57805,Sagano Romantic Train Ticket(Saga to Kameoka),inserted,,6a070ad20514b9b2e25595bb,Kyoto,Kyoto,Japan,Japan,3,live
+TRA_57806,Sagano Romantic Train Ticket (Kameoka to Saga)),inserted,,6a070ad30514b9b2e25595c0,Kyoto,Kyoto,Japan,Japan,3,live
+TRA_57807,Osaka: Sumo Experience with Live Show & Audience Challenge(Ticket),inserted,,6a070ad30514b9b2e25595c5,Osaka,Osaka,Japan,Japan,3,live
+TRA_57808,Osaka Dotonbori Naniwa Sightseeing Boat,inserted,,6a070ad30514b9b2e25595ca,Osaka,Osaka,Japan,Japan,3,live
+TRA_57809,Nikko Toshogu Shrine & Kegon Waterfall One Day Tour from Tokyo(Depart from Shinjuku),inserted,,6a070ad40514b9b2e25595cf,Tokyo,Tokyo,Japan,Japan,3,live
+TRA_57810,Mt. Fuji & Hakone Private Day Tour with English-Speaking Driver,inserted,,6a070ad40514b9b2e25595d4,Tokyo,Tokyo,Japan,Japan,1,live
+TRA_57811,Kyoto Traditional Japanese Tea Ceremony Culture & Matcha Tasting Experience(Women's Kimono),inserted,,6a070ad40514b9b2e25595d7,Kyoto,Kyoto,Japan,Japan,1,live
+TRA_57812,Kyoto Traditional Japanese Tea Ceremony Culture & Matcha Tasting Experience(Men's Kimono),inserted,,6a070ad40514b9b2e25595da,Kyoto,Kyoto,Japan,Japan,1,live
+TRA_57813,Kyoto and Nara Day Tour(Regular- Meals Not Included),inserted,,6a070ad50514b9b2e25595dd,Osaka,Osaka,Japan,Japan,3,live
+TRA_57814,Mt.Fuji & Hakone & Gotemba premium Outlets From Tokyo,inserted,,6a070ad50514b9b2e25595e2,Tokyo,Tokyo,Japan,Japan,2,live
+TRA_57815,World Heritage Shirakawa-go and Kanazawa Day Tour,inserted,,6a070ad50514b9b2e25595e6,Kanazawa,Kanazawa,Japan,Japan,3,live
+TRA_57816,Tokyo Subway Ticket(48 hours · None · Physical Ticket),inserted,,6a070ad50514b9b2e25595eb,Tokyo,Tokyo,Japan,Japan,3,live
+TRA_57817,Tokyo Subway Ticket(24 hours · None · Physical -ticket),inserted,,6a070ad50514b9b2e25595f0,Tokyo,Tokyo,Japan,Japan,3,live
+TRA_57829,Depart from Kyoto: 1-day Tour Around Kyoto City (Customizable Itinerary),inserted,,6a070ad50514b9b2e25595f5,Kyoto,Kyoto,Japan,Japan,1,live
+TRA_57830,Day Trip from Kyoto: Nara & Osaka City (Customizable Itinerary),inserted,,6a070ad60514b9b2e25595f8,Kyoto,Kyoto,Japan,Japan,1,live

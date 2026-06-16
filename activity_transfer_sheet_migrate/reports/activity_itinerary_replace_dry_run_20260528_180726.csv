@@ -1,0 +1,68 @@
+activity_code_old,activity_code_new,match_type,package_itinerary_id,package_itinerary_slug,package_itinerary_title,day_index,itinerary_index,status,reason,old_module_id_found,new_title,new_activity_id,mode
+E-E10-A9VWNO0190,TRA_57774,New Activity,68dff17dec31f620f2d1d9f0,japan-explorer,Japan Explorer,2,1,skipped,new activity TRA_57774 not found in activity collection,E-E10-A9VWNO0190,,,dry_run
+E-E10-A9VWNO0189,TRA_57809,Exact Match,68dff17dec31f620f2d1d9f0,japan-explorer,Japan Explorer,4,1,skipped,new activity TRA_57809 not found in activity collection,E-E10-A9VWNO0189,,,dry_run
+E-E10-25NASC0015,RAIL_56329,Exact Match,68dff17dec31f620f2d1d9f0,japan-explorer,Japan Explorer,5,2,skipped,new activity RAIL_56329 not found in activity collection,E-E10-25NASC0015,,,dry_run
+E-E10-A1NSNO0898,546327,Exact Match,68dff17dec31f620f2d1d9f0,japan-explorer,Japan Explorer,6,1,skipped,new activity 546327 not found in activity collection,E-E10-A1NSNO0898,,,dry_run
+E-E10-A1MANO0354,TRA_57766,Exact Match,68dff17dec31f620f2d1d9f0,japan-explorer,Japan Explorer,7,1,skipped,new activity TRA_57766 not found in activity collection,E-E10-A1MANO0354,,,dry_run
+E-E10-25NASC0011,R1,Exact Match,68dff17dec31f620f2d1d9ef,japan-tech-trek,Japan Tech Trek,3,2,skipped,new activity R1 not found in activity collection,E-E10-25NASC0011,,,dry_run
+E-E10-A1MANO0353,TRA_57764,Similar,68dff17dec31f620f2d1d9ef,japan-tech-trek,Japan Tech Trek,5,1,skipped,new activity TRA_57764 not found in activity collection,E-E10-A1MANO0353,,,dry_run
+E-E10-25NASC0015,RAIL_56329,Exact Match,68dff17dec31f620f2d1d9ef,japan-tech-trek,Japan Tech Trek,6,2,skipped,new activity RAIL_56329 not found in activity collection,E-E10-25NASC0015,,,dry_run
+E-E10-A1NSNO0898,546327,Exact Match,68dff17dec31f620f2d1d9ef,japan-tech-trek,Japan Tech Trek,7,1,skipped,new activity 546327 not found in activity collection,E-E10-A1NSNO0898,,,dry_run
+E-E10-A1NSNO0826,TRA_57773,New Activity,68dff17dec31f620f2d1d9ee,japan-retail-therapy,Japan Retail Therapy,1,3,skipped,new activity TRA_57773 not found in activity collection,E-E10-A1NSNO0826,,,dry_run
+E-E10-25JERC0014,TRA_57786,New Activity,68dff17dec31f620f2d1d9ee,japan-retail-therapy,Japan Retail Therapy,2,1,skipped,new activity TRA_57786 not found in activity collection,E-E10-25JERC0014,,,dry_run
+E-E10-25NASC0012,RAIL_56327,Exact Match,68dff17dec31f620f2d1d9ee,japan-retail-therapy,Japan Retail Therapy,3,2,skipped,new activity RAIL_56327 not found in activity collection,E-E10-25NASC0012,,,dry_run
+E-E10-JP-KIXJ9,TRA_57829,Similar,68dff17dec31f620f2d1d9ee,japan-retail-therapy,Japan Retail Therapy,3,3,skipped,new activity TRA_57829 not found in activity collection,E-E10-JP-KIXJ9,,,dry_run
+E-E10-JP-KIXJ11,489377,Similar,68dff17dec31f620f2d1d9ee,japan-retail-therapy,Japan Retail Therapy,4,1,skipped,new activity 489377 not found in activity collection,E-E10-JP-KIXJ11,,,dry_run
+E-E10-A1NSNO0788,320011,New Activity,68dff17dec31f620f2d1d9ee,japan-retail-therapy,Japan Retail Therapy,4,2,skipped,new activity 320011 not found in activity collection,E-E10-A1NSNO0788,,,dry_run
+E-E10-A1MLNO1758,496607,Exact Match,68dff17dec31f620f2d1d9ee,japan-retail-therapy,Japan Retail Therapy,5,3,skipped,new activity 496607 not found in activity collection,E-E10-A1MLNO1758,,,dry_run
+E-E10-25JERC0010,511045,Exact Match,68dff17dec31f620f2d1d9ee,japan-retail-therapy,Japan Retail Therapy,6,1,skipped,new activity 511045 not found in activity collection,E-E10-25JERC0010,,,dry_run
+E-E10-25NASC0015,RAIL_56329,Exact Match,68dff17dec31f620f2d1d9f1,japan-thrills,Japan Thrills,5,2,skipped,new activity RAIL_56329 not found in activity collection,E-E10-25NASC0015,,,dry_run
+E-E10-A1MLNO1851,T5,Exact Match,68dff17dec31f620f2d1d9f1,japan-thrills,Japan Thrills,6,1,skipped,new activity T5 not found in activity collection,E-E10-A1MLNO1851,,,dry_run
+E-E10-A1NSNO0898,546327,Exact Match,68dff17dec31f620f2d1d9f1,japan-thrills,Japan Thrills,7,1,skipped,new activity 546327 not found in activity collection,E-E10-A1NSNO0898,,,dry_run
+E-E10-JP-NRTJ18,TRA_57779,Exact Match,68dff17dec31f620f2d1d9eb,japans-scenic-trio,Japan's Scenic Trio,2,1,skipped,new activity TRA_57779 not found in activity collection,E-E10-JP-NRTJ18,,,dry_run
+E-E10-25NASC0034,496607,Similar,68dff17dec31f620f2d1d9eb,japans-scenic-trio,Japan's Scenic Trio,5,3,skipped,new activity 496607 not found in activity collection,E-E10-25NASC0034,,,dry_run
+E-E10-A1NSNO0896,TRA_57808,New Activity,68dff17dec31f620f2d1d9eb,japans-scenic-trio,Japan's Scenic Trio,6,1,skipped,new activity TRA_57808 not found in activity collection,E-E10-A1NSNO0896,,,dry_run
+E-E10-JP-NRTJ18,TRA_57779,Exact Match,68dff17dec31f620f2d1d9ea,japans-modern-wonders,Japan's Modern Wonders,2,1,skipped,new activity TRA_57779 not found in activity collection,E-E10-JP-NRTJ18,,,dry_run
+E-E10-25NASC0031,TRA_57793,Similar,68dff17dec31f620f2d1d9ea,japans-modern-wonders,Japan's Modern Wonders,3,1,skipped,new activity TRA_57793 not found in activity collection,E-E10-25NASC0031,,,dry_run
+E-E10-A1NSNO0788,320011,New Activity,68dff17dec31f620f2d1d9ea,japans-modern-wonders,Japan's Modern Wonders,4,3,skipped,new activity 320011 not found in activity collection,E-E10-A1NSNO0788,,,dry_run
+E-E10-A1MANO0354,TRA_57766,Exact Match,68dff17dec31f620f2d1d9ea,japans-modern-wonders,Japan's Modern Wonders,7,1,skipped,new activity TRA_57766 not found in activity collection,E-E10-A1MANO0354,,,dry_run
+E-E10-A1MLNO1851,T5,Exact Match,68dff17dec31f620f2d1d9ea,japans-modern-wonders,Japan's Modern Wonders,7,2,skipped,new activity T5 not found in activity collection,E-E10-A1MLNO1851,,,dry_run
+E-E10-A1NSNO0865,A1,Similar,68dff17dec31f620f2d1d9ec,japan-park-adventure,Japan Park Adventure,1,3,skipped,new activity A1 not found in activity collection,E-E10-A1NSNO0865,,,dry_run
+E-E10-A1MANO0353,TRA_57764,Similar,68dff17dec31f620f2d1d9ec,japan-park-adventure,Japan Park Adventure,2,1,skipped,new activity TRA_57764 not found in activity collection,E-E10-A1MANO0353,,,dry_run
+E-E10-A1MANO0356,TRA_57765,Similar,68dff17dec31f620f2d1d9ec,japan-park-adventure,Japan Park Adventure,3,1,skipped,new activity TRA_57765 not found in activity collection,E-E10-A1MANO0356,,,dry_run
+E-E10-25NASC0015,RAIL_56329,Exact Match,68dff17dec31f620f2d1d9ec,japan-park-adventure,Japan Park Adventure,4,2,skipped,new activity RAIL_56329 not found in activity collection,E-E10-25NASC0015,,,dry_run
+E-E10-25NASC0034,496607,Similar,68dff17dec31f620f2d1d9ec,japan-park-adventure,Japan Park Adventure,4,3,skipped,new activity 496607 not found in activity collection,E-E10-25NASC0034,,,dry_run
+E-E10-A1MLNO1851,T5,Exact Match,68dff17dec31f620f2d1d9ec,japan-park-adventure,Japan Park Adventure,5,1,skipped,new activity T5 not found in activity collection,E-E10-A1MLNO1851,,,dry_run
+E-E10-25JERC0017,TRA_57801,New Activity,68dff17dec31f620f2d1d9ed,ancient-japan-journey,Ancient Japan Journey,2,1,skipped,new activity TRA_57801 not found in activity collection,E-E10-25JERC0017,,,dry_run
+E-E10-JP-NRTJ18,TRA_57779,Exact Match,68dff17dec31f620f2d1d9ed,ancient-japan-journey,Ancient Japan Journey,3,1,skipped,new activity TRA_57779 not found in activity collection,E-E10-JP-NRTJ18,,,dry_run
+E-E10-25NASC0012,RAIL_56327,Exact Match,68dff17dec31f620f2d1d9ed,ancient-japan-journey,Ancient Japan Journey,4,2,skipped,new activity RAIL_56327 not found in activity collection,E-E10-25NASC0012,,,dry_run
+E-E10-JP-KIXJ10,TRA_57783,New Activity,68dff17dec31f620f2d1d9ed,ancient-japan-journey,Ancient Japan Journey,4,3,skipped,new activity TRA_57783 not found in activity collection,E-E10-JP-KIXJ10,,,dry_run
+E-E10-A1MLNO1763,TRA_57809,New Activity,68dff17dec31f620f2d1d9ed,ancient-japan-journey,Ancient Japan Journey,5,1,skipped,new activity TRA_57809 not found in activity collection,E-E10-A1MLNO1763,,,dry_run
+E-E10-25NASC0034,496607,Similar,68dff17dec31f620f2d1d9ed,ancient-japan-journey,Ancient Japan Journey,6,3,skipped,new activity 496607 not found in activity collection,E-E10-25NASC0034,,,dry_run
+E-E10-JP-KIXJ11,489377,Similar,68e660e06d75b94945ca5ddb,essence-of-japan,Essence Of Japan,3,1,skipped,new activity 489377 not found in activity collection,E-E10-JP-KIXJ11,,,dry_run
+E-E10-A1NSNO0788,320011,New Activity,68e660e06d75b94945ca5ddb,essence-of-japan,Essence Of Japan,3,2,skipped,new activity 320011 not found in activity collection,E-E10-A1NSNO0788,,,dry_run
+E-E10-A1NSNO0810,546327,Similar,68e660e06d75b94945ca5ddb,essence-of-japan,Essence Of Japan,4,1,skipped,new activity 546327 not found in activity collection,E-E10-A1NSNO0810,,,dry_run
+E-E10-JP-NRTJ18,TRA_57779,Exact Match,68e660e06d75b94945ca5ddb,essence-of-japan,Essence Of Japan,7,1,skipped,new activity TRA_57779 not found in activity collection,E-E10-JP-NRTJ18,,,dry_run
+E-E10-25SYLI0016,TRA_57809,Similar,68e660e06d75b94945ca5ddb,essence-of-japan,Essence Of Japan,8,1,skipped,new activity TRA_57809 not found in activity collection,E-E10-25SYLI0016,,,dry_run
+E-E10-JP-NRTJ18,TRA_57779,Exact Match,68e660e06d75b94945ca5de4,japan-family-quest,Japan Family Quest,3,1,skipped,new activity TRA_57779 not found in activity collection,E-E10-JP-NRTJ18,,,dry_run
+E-E10-A1NSNO0788,320011,New Activity,68e660e06d75b94945ca5de4,japan-family-quest,Japan Family Quest,5,3,skipped,new activity 320011 not found in activity collection,E-E10-A1NSNO0788,,,dry_run
+E-E10-JP-KIXJ3,TRA_57829,Similar,68e660e06d75b94945ca5de4,japan-family-quest,Japan Family Quest,6,1,skipped,new activity TRA_57829 not found in activity collection,E-E10-JP-KIXJ3,,,dry_run
+E-E10-JP-KIXJ11,489377,Similar,68e660e06d75b94945ca5de4,japan-family-quest,Japan Family Quest,7,1,skipped,new activity 489377 not found in activity collection,E-E10-JP-KIXJ11,,,dry_run
+E-E10-A1NSNO0810,546327,Similar,68e660e06d75b94945ca5de4,japan-family-quest,Japan Family Quest,10,1,skipped,new activity 546327 not found in activity collection,E-E10-A1NSNO0810,,,dry_run
+E-E10-JP-KIXJ11,489377,Similar,68e660e06d75b94945ca5de5,japan-with-the-crew,Japan With The Crew,3,1,skipped,new activity 489377 not found in activity collection,E-E10-JP-KIXJ11,,,dry_run
+E-E10-JP-NRTJ18,TRA_57779,Exact Match,68e660e06d75b94945ca5dce,a-japenese-love-story,A Japenese Love Story,3,1,skipped,new activity TRA_57779 not found in activity collection,E-E10-JP-NRTJ18,,,dry_run
+E-E10-A1NSNO0788,320011,New Activity,68e660e06d75b94945ca5dce,a-japenese-love-story,A Japenese Love Story,5,3,skipped,new activity 320011 not found in activity collection,E-E10-A1NSNO0788,,,dry_run
+E-E10-JP-KIXJ3,TRA_57829,Similar,68e660e06d75b94945ca5dce,a-japenese-love-story,A Japenese Love Story,6,1,skipped,new activity TRA_57829 not found in activity collection,E-E10-JP-KIXJ3,,,dry_run
+E-E10-JP-KIXJ11,489377,Similar,68e660e06d75b94945ca5dce,a-japenese-love-story,A Japenese Love Story,7,1,skipped,new activity 489377 not found in activity collection,E-E10-JP-KIXJ11,,,dry_run
+E-E10-A1NSNO0810,546327,Similar,68e660e06d75b94945ca5df6,the-japan-journey,The Japan Journey,2,1,skipped,new activity 546327 not found in activity collection,E-E10-A1NSNO0810,,,dry_run
+E-E10-JP-KIXJ11,489377,Similar,68e660e06d75b94945ca5df6,the-japan-journey,The Japan Journey,5,1,skipped,new activity 489377 not found in activity collection,E-E10-JP-KIXJ11,,,dry_run
+E-E10-25NASI0071,320011,Similar,68e660e06d75b94945ca5df6,the-japan-journey,The Japan Journey,5,2,skipped,new activity 320011 not found in activity collection,E-E10-25NASI0071,,,dry_run
+E-E10-JP-NRTJ18,TRA_57779,Exact Match,68e660e06d75b94945ca5df6,the-japan-journey,The Japan Journey,8,1,skipped,new activity TRA_57779 not found in activity collection,E-E10-JP-NRTJ18,,,dry_run
+E-E10-A1NSNO0865,A1,Similar,68e660e06d75b94945ca5dfb,tokyo-kyoto-discovery,Tokyo & Kyoto Discovery,3,1,skipped,new activity A1 not found in activity collection,E-E10-A1NSNO0865,,,dry_run
+E-E10-A1MLNO1762,A6,New Activity,68e660e06d75b94945ca5dfb,tokyo-kyoto-discovery,Tokyo & Kyoto Discovery,4,2,skipped,new activity A6 not found in activity collection,E-E10-A1MLNO1762,,,dry_run
+E-E10-25NASI0071,320011,Similar,68e660e06d75b94945ca5dfb,tokyo-kyoto-discovery,Tokyo & Kyoto Discovery,5,1,skipped,new activity 320011 not found in activity collection,E-E10-25NASI0071,,,dry_run
+TRA_56242,589308,Similar,68e660e06d75b94945ca5dfb,tokyo-kyoto-discovery,Tokyo & Kyoto Discovery,3,2,skipped,new activity 589308 not found in activity collection,TRA_56242,,,dry_run
+E-E10-JP-NRTJ18,TRA_57779,Exact Match,68e660e06d75b94945ca5dec,sakura-escape,Sakura Escape,3,1,skipped,new activity TRA_57779 not found in activity collection,E-E10-JP-NRTJ18,,,dry_run
+E-E10-JP-KIXJ11,489377,Similar,68e660e06d75b94945ca5dec,sakura-escape,Sakura Escape,5,1,skipped,new activity 489377 not found in activity collection,E-E10-JP-KIXJ11,,,dry_run
+E-E10-A1NSNO0788,320011,New Activity,68e660e06d75b94945ca5dec,sakura-escape,Sakura Escape,5,2,skipped,new activity 320011 not found in activity collection,E-E10-A1NSNO0788,,,dry_run
+E-E10-25NASI0071,320011,Similar,68e660e06d75b94945ca5dec,sakura-escape,Sakura Escape,6,1,skipped,new activity 320011 not found in activity collection,E-E10-25NASI0071,,,dry_run

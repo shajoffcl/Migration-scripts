@@ -1,0 +1,52 @@
+activity_code,title,status,reason,activity_id,city_csv,city_resolved,country_csv,country_resolved,price_rows,cache_price,cache_price_markup,mode
+TRA_57764,Tokyo Disneyland 1-Day Ticket,queued_update,,6a070754a8e4f2448984119d,Tokyo,Tokyo,Japan,Japan,4,6632.09,994.81,dry_run
+TRA_57765,Tokyo DisneySea 1-Day Ticket,queued_update,,6a070755a8e4f244898411a3,Tokyo,Tokyo,Japan,Japan,4,6632.09,994.81,dry_run
+TRA_57766,Universal Studios Japan 1-day Studio Pass,queued_update,,6a070755a8e4f244898411a9,Osaka,Osaka,Japan,Japan,4,5656.78,848.52,dry_run
+TRA_57767,Osaka Castle Museum Ticket,queued_update,,6a070755a8e4f244898411af,Osaka,Osaka,Japan,Japan,4,682.71,102.41,dry_run
+TRA_57768,26-hour Osaka Metro Pass,queued_update,,6a070755a8e4f244898411b5,Osaka,Osaka,Japan,Japan,3,585.18,87.78,dry_run
+TRA_57769,Osaka Metro & Osaka City Bus Pass · 2-day · E-ticket,queued_update,,6a070755a8e4f244898411ba,Osaka,Osaka,Japan,Japan,2,975.31,146.3,dry_run
+TRA_57770,48-hour Osaka Metro Pass,queued_update,,6a070756a8e4f244898411be,Osaka,Osaka,Japan,Japan,3,975.31,146.3,dry_run
+TRA_57771,Osaka Wonder Cruise(Dotonbori Route),queued_update,,6a070756a8e4f244898411c3,Osaka,Osaka,Japan,Japan,3,1072.84,160.93,dry_run
+TRA_57772,Hiroshima & Miyajima 1 Day Bus Tour With lunch With Roundtrip by Shinkasen from Osaka,queued_update,,6a070756a8e4f244898411c8,Osaka,Osaka,Japan,Japan,3,22432.06,3364.81,dry_run
+TRA_57773,Tokyo Skytree Ticket(Tembo Deck & Galleria),queued_update,,6a070756a8e4f244898411cd,Tokyo,Tokyo,Japan,Japan,3,2145.68,321.85,dry_run
+TRA_57774,Hakone Sightseeing Cruise(Hakonemachi to Togendai),queued_update,,6a070756a8e4f244898411d2,Hakone,Hakone,Japan,Japan,3,975.31,146.3,dry_run
+TRA_57775,Hakone Komagatake Ropeway Round-Trip Ticket,queued_update,,6a070757a8e4f244898411d7,Hakone,Hakone,Japan,Japan,3,1170.37,175.56,dry_run
+TRA_57776,Umeda Sky Building & Kuchu Teien Observatory Ticket in Osaka,queued_update,,6a070757a8e4f244898411dc,Osaka,Osaka,Japan,Japan,3,1170.37,175.56,dry_run
+TRA_57777,Tokyo Skytree 1 Day Tour from Nishi Shinjuku LOVE statue (With Lunch),queued_update,,6a070757a8e4f244898411e1,Tokyo,Tokyo,Japan,Japan,3,10435.78,1565.37,dry_run
+TRA_57778,Kyoto and Nara Day Tour(Optional upgrade to Wagyu “Kobe Beef” lunch),queued_update,,6a070757a8e4f244898411e6,Osaka,Osaka,Japan,Japan,3,5266.66,790.0,dry_run
+TRA_57779,Tokyo Mt. Fuji & Hakone Full-Day Guided Tour(Return by Motorcoach),queued_update,,6a070757a8e4f244898411eb,Tokyo,Tokyo,Japan,Japan,3,9850.6,1477.59,dry_run
+TRA_57780,Universal Studios Japan Express Pass,queued_update,,6a070758a8e4f244898411f0,Osaka,Osaka,Japan,Japan,2,9460.48,1419.07,dry_run
+TRA_57781,Tokyo Tower Ticket,queued_update,,6a070758a8e4f244898411f4,Tokyo,Tokyo,Japan,Japan,5,1853.08,277.96,dry_run
+TRA_57782,Hiroshima & Miyajima 1 Day Bus Tour(Round-Trip by Shinkansen from Osaka),queued_update,,6a070758a8e4f244898411fb,Osaka,Osaka,Japan,Japan,3,22432.06,3364.81,dry_run
+TRA_57783,Kyoto Amanohashidate & Miyama Village: Includes boat cruise + cable car + crab lunch (pickup/drop-off in Osaka or Kyoto),queued_update,,6a070758a8e4f24489841200,"Osaka, Kyoto","Osaka, Kyoto",Japan,Japan,3,6729.62,1009.44,dry_run
+TRA_57784,Tokyo Subway Ticket(24 hours · None · E-ticket ),queued_update,,6a070759a8e4f24489841205,Tokyo,Tokyo,Japan,Japan,3,682.71,102.41,dry_run
+TRA_57785,Tokyo Subway Ticket(48 hours · None · E-ticket ),queued_update,,6a070759a8e4f2448984120a,Tokyo,Tokyo,Japan,Japan,3,975.31,146.3,dry_run
+TRA_57786,"Tokyo City, Private Customized Day Trip with English-speaking Driver",queued_update,,6a070759a8e4f2448984120f,Tokyo,Tokyo,Japan,Japan,1,13898.12,2084.72,dry_run
+TRA_57790,Mount Fuji One-Day Tour: Kawaguchiko Tenjozan Park with Ropeway & Arakurayama Sengen Park & Nichikawa Clock Shop & Lawson Convenience Store & Oishi Park (Departing from Tokyo),queued_update,,6a070759a8e4f24489841212,Tokyo,Tokyo,Japan,Japan,1,5656.78,848.52,dry_run
+TRA_57791,Hiroshima & Miyajima 1 Day Bus Tour With lunch(From Hiroshima),queued_update,,6a07075aa8e4f24489841215,Hiroshima,Hiroshima,Japan,Japan,3,9265.42,1389.81,dry_run
+TRA_57792,Hiroshima & Miyajima 1 Day Bus Tour With lunch(From Fukuoka: Round-Trip by Shinkansen),queued_update,,6a07075aa8e4f2448984121a,Fukuoka,Fukuoka,Japan,Japan,3,21164.16,3174.62,dry_run
+TRA_57793,Hop-On Hop-Off Tokyo Bus by Skyhop Bus,queued_update,,6a07075aa8e4f2448984121f,Tokyo,Tokyo,Japan,Japan,2,2535.8,380.37,dry_run
+TRA_57794,Kyoto & Osaka Sightseeing Pass by Keihan Railway,queued_update,,6a07075aa8e4f24489841223,"Kyoto, Osaka","Kyoto, Osaka",Japan,Japan,1,975.31,146.3,dry_run
+TRA_57795,Universal Studios Japan Express Pass(4 - Backdrop & Race),queued_update,,6a07075ba8e4f24489841226,Osaka,Osaka,Japan,Japan,2,11606.15,1740.92,dry_run
+TRA_57796,Universal Studios Japan Express Pass(7 - Minecart & Selection ticket),queued_update,,6a07075ba8e4f2448984122a,Osaka,Osaka,Japan,Japan,2,17165.4,2574.81,dry_run
+TRA_57797,Universal Studios Japan Express Pass( 4 - Flying Dinosaur & Jurassic Park),queued_update,,6a07075ba8e4f2448984122e,Osaka,Osaka,Japan,Japan,2,8485.17,1272.78,dry_run
+TRA_57798,Tokyo round trip Nikko 10-hour car service - customizable itinerary,queued_update,,6a07075ba8e4f24489841232,Tokyo,Tokyo,Japan,Japan,1,24187.61,3628.14,dry_run
+TRA_57799,10-hour round trip car service from Tokyo to Mount Fuji - Customizable itinerary,queued_update,,6a07075ba8e4f24489841235,Tokyo,Tokyo,Japan,Japan,1,19359.84,2903.98,dry_run
+TRA_57800,10-hour car service in Tokyo,queued_update,,6a07075ca8e4f24489841238,Tokyo,Tokyo,Japan,Japan,1,17750.59,2662.59,dry_run
+TRA_57801,Tokyo Private Customizable Full-Day Tour,queued_update,,6a07075ca8e4f2448984123b,Tokyo,Tokyo,Japan,Japan,1,13946.89,2092.03,dry_run
+TRA_57802,The Sumo Hall Hirakuza Osaka admission ticket (Osaka),queued_update,,6a07075ca8e4f2448984123e,Osaka,Osaka,Japan,Japan,3,8290.11,1243.52,dry_run
+TRA_57805,Sagano Romantic Train Ticket(Saga to Kameoka),queued_update,,6a07075ca8e4f24489841243,Kyoto,Kyoto,Japan,Japan,3,487.65,73.15,dry_run
+TRA_57806,Sagano Romantic Train Ticket (Kameoka to Saga)),queued_update,,6a07075da8e4f24489841248,Kyoto,Kyoto,Japan,Japan,3,487.65,73.15,dry_run
+TRA_57807,Osaka: Sumo Experience with Live Show & Audience Challenge(Ticket),queued_update,,6a07075da8e4f2448984124d,Osaka,Osaka,Japan,Japan,3,6144.43,921.66,dry_run
+TRA_57808,Osaka Dotonbori Naniwa Sightseeing Boat,queued_update,,6a07075da8e4f24489841252,Osaka,Osaka,Japan,Japan,3,975.31,146.3,dry_run
+TRA_57809,Nikko Toshogu Shrine & Kegon Waterfall One Day Tour from Tokyo(Depart from Shinjuku),queued_update,,6a07075da8e4f24489841257,Tokyo,Tokyo,Japan,Japan,3,5949.37,892.41,dry_run
+TRA_57810,Mt. Fuji & Hakone Private Day Tour with English-Speaking Driver,queued_update,,6a07075ea8e4f2448984125c,Tokyo,Tokyo,Japan,Japan,1,25016.62,3752.49,dry_run
+TRA_57811,Kyoto Traditional Japanese Tea Ceremony Culture & Matcha Tasting Experience(Women's Kimono),queued_update,,6a07075ea8e4f2448984125f,Kyoto,Kyoto,Japan,Japan,1,5461.72,819.26,dry_run
+TRA_57812,Kyoto Traditional Japanese Tea Ceremony Culture & Matcha Tasting Experience(Men's Kimono),queued_update,,6a07075ea8e4f24489841262,Kyoto,Kyoto,Japan,Japan,1,6729.62,1009.44,dry_run
+TRA_57813,Kyoto and Nara Day Tour(Regular- Meals Not Included),queued_update,,6a07075ea8e4f24489841265,Osaka,Osaka,Japan,Japan,3,5169.13,775.37,dry_run
+TRA_57814,Mt.Fuji & Hakone & Gotemba premium Outlets From Tokyo,queued_update,,6a07075fa8e4f2448984126a,Tokyo,Tokyo,Japan,Japan,2,5754.31,863.15,dry_run
+TRA_57815,World Heritage Shirakawa-go and Kanazawa Day Tour,queued_update,,6a07075fa8e4f2448984126e,Kanazawa,Kanazawa,Japan,Japan,3,9265.42,1389.81,dry_run
+TRA_57816,Tokyo Subway Ticket(48 hours · None · Physical Ticket),queued_update,,6a07075fa8e4f24489841273,Tokyo,Tokyo,Japan,Japan,3,877.78,131.67,dry_run
+TRA_57817,Tokyo Subway Ticket(24 hours · None · Physical -ticket),queued_update,,6a07075fa8e4f24489841278,Tokyo,Tokyo,Japan,Japan,3,585.18,87.78,dry_run
+TRA_57829,Depart from Kyoto: 1-day Tour Around Kyoto City (Customizable Itinerary),queued_update,,6a070760a8e4f2448984127d,Kyoto,Kyoto,Japan,Japan,1,14434.54,2165.18,dry_run
+TRA_57830,Day Trip from Kyoto: Nara & Osaka City (Customizable Itinerary),queued_update,,6a070760a8e4f24489841280,Kyoto,Kyoto,Japan,Japan,1,15751.21,2362.68,dry_run

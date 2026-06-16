@@ -1,0 +1,19 @@
+jarvis_id,collection,transfer_id,title,slab_count,status,reason,mode
+TRA_56321,within_city_transfer,68ecea6f103b93ff55de96bc,One way transfer,4,deleted,"japan within, jarvis_id not in static sheet (20 allowed)",live
+TRA_56323,within_city_transfer,68ecea6f103b93ff55de96ba,One way transfer to Tokyo,4,deleted,"japan within, jarvis_id not in static sheet (20 allowed)",live
+TRA_56324,within_city_transfer,68ecea6f103b93ff55de96b9,Tokyo to Narita Transfer,4,deleted,"japan within, jarvis_id not in static sheet (20 allowed)",live
+TRA_57079,within_city_transfer,68ecea6f103b93ff55de9665,One way transfer KIX to Kyoto,4,deleted,"japan within, jarvis_id not in static sheet (20 allowed)",live
+TRA_56437,within_city_transfer,68e7cb296b76504213b220c0,Tokyo One-day Tour,1,deleted,"japan within, jarvis_id not in static sheet (20 allowed)",live
+TRA_56325,within_city_transfer,68ecea6f103b93ff55de96b8,One way transfer KIX to Kyoto,4,deleted,"japan within, jarvis_id not in static sheet (20 allowed)",live
+TRA_56331,within_city_transfer,68ecea6f103b93ff55de96b5,One way transfer to KIX,4,deleted,"japan within, jarvis_id not in static sheet (20 allowed)",live
+TRA_56330,within_city_transfer,68ecea6f103b93ff55de96b6,One way transfer to Osaka,4,deleted,"japan within, jarvis_id not in static sheet (20 allowed)",live
+TRA_56326,within_city_transfer,68ecea6f103b93ff55de96b7,One way transfer to KIX,4,deleted,"japan within, jarvis_id not in static sheet (20 allowed)",live
+TRA_56322,within_city_transfer,68ecea6f103b93ff55de96bb,Tokyo to Haneda Transfer,4,deleted,"japan within, jarvis_id not in static sheet (20 allowed)",live
+RAIL_56207,across_city_transfer,68e7cb0e6b76504213b21ee3,Train from Hiroshima to Kyoto,3,deleted,"japan to/from japan across, jarvis_id not in static sheet",live
+RAIL_56221,across_city_transfer,68e7cb0e6b76504213b21edc,Train from Nagoya to Kyoto,3,deleted,"japan to/from japan across, jarvis_id not in static sheet",live
+RAIL_56212,across_city_transfer,68e7cb0e6b76504213b21edf,Train from Kyoto to Tokyo,3,deleted,"japan to/from japan across, jarvis_id not in static sheet",live
+RAIL_56318,across_city_transfer,68e7cb0e6b76504213b21ed0,Train from Tokyo to Shin-Hakodate-Hokuto,3,deleted,"japan to/from japan across, jarvis_id not in static sheet",live
+RAIL_56203,across_city_transfer,68e7cb0e6b76504213b21ee5,Train from Osaka to Hiroshima,3,deleted,"japan to/from japan across, jarvis_id not in static sheet",live
+RAIL_56195,across_city_transfer,68e7cb0e6b76504213b21ee6,Train from Tokyo to Hiroshima,3,deleted,"japan to/from japan across, jarvis_id not in static sheet",live
+RAIL_56204,across_city_transfer,68e7cb0e6b76504213b21ee4,Train from Hiroshima to Osaka,3,deleted,"japan to/from japan across, jarvis_id not in static sheet",live
+RAIL_56223,across_city_transfer,68e7cb0e6b76504213b21edb,Train from Nagoya to Osaka,3,deleted,"japan to/from japan across, jarvis_id not in static sheet",live

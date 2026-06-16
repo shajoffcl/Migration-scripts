@@ -1,0 +1,46 @@
+transfer_title,package_itinerary_title,package_itinerary_id,day_index,itinerary_index,module_id,city, new_cms_activity_code,,,unique_codes
+One way transfer from  Narita Airport (NRT) to  Tokyo Hotel,Japan's Scenic Trio,68dff17dec31f620f2d1d9eb,1,1,TRA_56323,Tokyo, ATRA_57819,,,TRA_56323
+One way transfer from  Kansai Airport (KIX) to  Osaka Hotel,Japan's Scenic Trio,68dff17dec31f620f2d1d9eb,5,1,TRA_56330,Osaka, ATRA_57821,,,TRA_56330
+One way transfer from  Osaka Hotel to Kansai Airport (KIX),Japan's Scenic Trio,68dff17dec31f620f2d1d9eb,7,1,TRA_56331,Osaka, ATRA_57822,,,TRA_56331
+One way transfer from  Narita Airport (NRT) to  Tokyo Hotel,Japan Park Adventure,68dff17dec31f620f2d1d9ec,1,1,TRA_56323,Tokyo, ATRA_57819,,,RAIL_56327
+One way transfer from  Osaka Hotel to Kansai Airport (KIX),Japan Park Adventure,68dff17dec31f620f2d1d9ec,7,1,TRA_56331,Osaka, ATRA_57822,,,RAIL_56208
+One way transfer from  Narita Airport (NRT) to  Tokyo Hotel,Japan Retail Therapy,68dff17dec31f620f2d1d9ee,1,1,TRA_56323,Tokyo, ATRA_57819,,,TRA_56326
+One way transfer from  Kansai Airport (KIX) to  Osaka Hotel,Japan Retail Therapy,68dff17dec31f620f2d1d9ee,5,1,TRA_56330,Osaka, ATRA_57821,,,RAIL_56210
+One way transfer from  Osaka Hotel to Kansai Airport (KIX),Japan Retail Therapy,68dff17dec31f620f2d1d9ee,7,1,TRA_56331,Osaka, ATRA_57822,,,TRA_56322
+One way transfer from  Narita Airport (NRT) to  Tokyo Hotel,Japan Explorer,68dff17dec31f620f2d1d9f0,1,1,TRA_56323,Tokyo, ATRA_57819,,,TRA_56324
+One way transfer from  Osaka Hotel to Kansai Airport (KIX),Japan Explorer,68dff17dec31f620f2d1d9f0,9,1,TRA_56331,Osaka, ATRA_57822,,,RAIL_56209
+One way transfer from  Narita Airport (NRT) to  Tokyo Hotel,Japan Tech Trek,68dff17dec31f620f2d1d9ef,1,1,TRA_56323,Tokyo, ATRA_57819,,,RAIL_56328
+One way transfer from  Narita Airport (NRT) to  Tokyo Hotel,Japan Tech Trek,68dff17dec31f620f2d1d9ef,4,1,TRA_56323,Tokyo, ATRA_57819,,,
+One way transfer from  Osaka Hotel to Kansai Airport (KIX),Japan Tech Trek,68dff17dec31f620f2d1d9ef,8,1,TRA_56331,Osaka, ATRA_57822,,,
+One way transfer from  Narita Airport (NRT) to  Tokyo Hotel,Japan's Modern Wonders,68dff17dec31f620f2d1d9ea,1,1,TRA_56323,Tokyo, ATRA_57819,,,
+Train from Tokyo to Kyoto,Japan's Modern Wonders,68dff17dec31f620f2d1d9ea,4,2,RAIL_56327,Kyoto, RAIL_56327,,,
+Train from Kyoto to Osaka,Japan's Modern Wonders,68dff17dec31f620f2d1d9ea,6,2,RAIL_56208,Osaka, RAIL_56208,,,
+One way transfer from  Osaka Hotel to Kansai Airport (KIX),Japan's Modern Wonders,68dff17dec31f620f2d1d9ea,8,1,TRA_56331,Osaka, ATRA_57822,,,
+One way transfer from  Narita Airport (NRT) to  Tokyo Hotel,Ancient Japan Journey,68dff17dec31f620f2d1d9ed,1,1,TRA_56323,Tokyo, ATRA_57819,,,
+One way transfer from  Kansai Airport (KIX) to  Osaka Hotel,Ancient Japan Journey,68dff17dec31f620f2d1d9ed,6,1,TRA_56330,Osaka, ATRA_57821,,,
+One way transfer from  Osaka Hotel to Kansai Airport (KIX),Ancient Japan Journey,68dff17dec31f620f2d1d9ed,8,1,TRA_56331,Osaka, ATRA_57822,,,
+One way transfer from  Narita Airport (NRT) to  Tokyo Hotel,Japan Thrills,68dff17dec31f620f2d1d9f1,1,1,TRA_56323,Tokyo, ATRA_57819,,,
+One way transfer from  Osaka Hotel to Kansai Airport (KIX),Japan Thrills,68dff17dec31f620f2d1d9f1,8,1,TRA_56331,Osaka,  ATRA_57822,,,
+One way transfer from  Narita Airport (NRT) to  Tokyo Hotel,A Japenese Love Story,68e660e06d75b94945ca5dce,1,1,TRA_56323,Tokyo, ATRA_57819,,,
+Train from Tokyo to Kyoto,A Japenese Love Story,68e660e06d75b94945ca5dce,5,1,RAIL_56327,Kyoto, RAIL_56327,,,
+One way transfer from Kyoto Hotel to Kansai Airport (KIX),A Japenese Love Story,68e660e06d75b94945ca5dce,8,1,TRA_56326,Kyoto, ATRA_57828,,,
+One way transfer from  Kansai Airport (KIX) to  Osaka Hotel,Essence Of Japan,68e660e06d75b94945ca5ddb,1,1,TRA_56330,Osaka, ATRA_57821,,,
+Train from Osaka to Tokyo,Essence Of Japan,68e660e06d75b94945ca5ddb,5,1,RAIL_56210,Tokyo, RAIL_56210,,,
+One way transfer from Tokyo Hotel to Haneda Airport (HND),Essence Of Japan,68e660e06d75b94945ca5ddb,9,1,TRA_56322,Tokyo,ATRA_57818,,,
+One way transfer from  Narita Airport (NRT) to  Tokyo Hotel,Japan Family Quest,68e660e06d75b94945ca5de4,1,1,TRA_56323,Tokyo, ATRA_57819,,,
+Train from Tokyo to Kyoto,Japan Family Quest,68e660e06d75b94945ca5de4,5,1,RAIL_56327,Kyoto, RAIL_56327,,,
+Train from Kyoto to Osaka,Japan Family Quest,68e660e06d75b94945ca5de4,8,1,RAIL_56208,Osaka, RAIL_56208,,,
+One way transfer from  Osaka Hotel to Kansai Airport (KIX),Japan Family Quest,68e660e06d75b94945ca5de4,11,1,TRA_56331,Osaka,  ATRA_57822,,,
+One way transfer from  Kansai Airport (KIX) to  Osaka Hotel,Japan With The Crew,68e660e06d75b94945ca5de5,1,1,TRA_56330,Osaka, ATRA_57821,,,
+Train from Osaka to Tokyo,Japan With The Crew,68e660e06d75b94945ca5de5,4,1,RAIL_56210,Tokyo, RAIL_56210,,,
+One way transfer from  Tokyo Hotel to Narita Airport (NRT),Japan With The Crew,68e660e06d75b94945ca5de5,6,1,TRA_56324,Tokyo,ATRA_57820,,,
+One way transfer from  Narita Airport (NRT) to  Tokyo Hotel,Sakura Escape,68e660e06d75b94945ca5dec,1,1,TRA_56323,Tokyo,  ATRA_57819,,,
+Train from Tokyo to Kyoto,Sakura Escape,68e660e06d75b94945ca5dec,4,1,RAIL_56327,Kyoto, RAIL_56327,,,
+One way transfer from Kyoto Hotel to Kansai Airport (KIX),Sakura Escape,68e660e06d75b94945ca5dec,7,1,TRA_56326,Kyoto, ATRA_57828,,,
+One way transfer from  Kansai Airport (KIX) to  Osaka Hotel,The Japan Journey,68e660e06d75b94945ca5df6,1,1,TRA_56330,Osaka, ATRA_57821,,,
+Train from Osaka to Kyoto,The Japan Journey,68e660e06d75b94945ca5df6,4,1,RAIL_56209,Kyoto,RAIL_56209,,,
+Train from Kyoto to Tokyo,The Japan Journey,68e660e06d75b94945ca5df6,6,1,RAIL_56328,Tokyo,RAIL_56328,,,
+One way transfer from Tokyo Hotel to Haneda Airport (HND),The Japan Journey,68e660e06d75b94945ca5df6,9,1,TRA_56322,Tokyo, ATRA_57818,,,
+One way transfer from  Narita Airport (NRT) to  Tokyo Hotel,Tokyo & Kyoto Discovery,68e660e06d75b94945ca5dfb,1,1,TRA_56323,Tokyo, ATRA_57819,,,
+Train from Tokyo to Kyoto,Tokyo & Kyoto Discovery,68e660e06d75b94945ca5dfb,4,1,RAIL_56327,Kyoto, RAIL_56327,,,
+One way transfer from Kyoto Hotel to Kansai Airport (KIX),Tokyo & Kyoto Discovery,68e660e06d75b94945ca5dfb,6,1,TRA_56326,Kyoto, ATRA_57828,,,

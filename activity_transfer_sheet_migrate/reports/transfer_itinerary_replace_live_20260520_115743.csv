@@ -1,0 +1,46 @@
+transfer_code_old,transfer_code_new,package_itinerary_slug,package_itinerary_id,package_itinerary_title,day_index,itinerary_index,status,reason,old_module_id_found,new_title,transfer_collection,mode
+TRA_56323,ATRA_57819,japans-scenic-trio,68dff17dec31f620f2d1d9eb,Japan's Scenic Trio,1,1,replaced,,TRA_56323,One way transfer from Narita Airport to Tokyo City Centre/Shinjuku Hotel,within_city_transfer,live
+TRA_56330,ATRA_57821,japans-scenic-trio,68dff17dec31f620f2d1d9eb,Japan's Scenic Trio,5,1,replaced,,TRA_56330,One way transfer from Kansai International Airport to Osaka City / Namba / Umeda,within_city_transfer,live
+TRA_56331,ATRA_57822,japans-scenic-trio,68dff17dec31f620f2d1d9eb,Japan's Scenic Trio,7,1,replaced,,TRA_56331,One way transfer from Osaka City / Namba / Umeda to Kansai International Airport,within_city_transfer,live
+TRA_56323,ATRA_57819,japan-park-adventure,68dff17dec31f620f2d1d9ec,Japan Park Adventure,1,1,replaced,,TRA_56323,One way transfer from Narita Airport to Tokyo City Centre/Shinjuku Hotel,within_city_transfer,live
+TRA_56331,ATRA_57822,japan-park-adventure,68dff17dec31f620f2d1d9ec,Japan Park Adventure,7,1,replaced,,TRA_56331,One way transfer from Osaka City / Namba / Umeda to Kansai International Airport,within_city_transfer,live
+TRA_56323,ATRA_57819,japan-retail-therapy,68dff17dec31f620f2d1d9ee,Japan Retail Therapy,1,1,replaced,,TRA_56323,One way transfer from Narita Airport to Tokyo City Centre/Shinjuku Hotel,within_city_transfer,live
+TRA_56330,ATRA_57821,japan-retail-therapy,68dff17dec31f620f2d1d9ee,Japan Retail Therapy,5,1,replaced,,TRA_56330,One way transfer from Kansai International Airport to Osaka City / Namba / Umeda,within_city_transfer,live
+TRA_56331,ATRA_57822,japan-retail-therapy,68dff17dec31f620f2d1d9ee,Japan Retail Therapy,7,1,replaced,,TRA_56331,One way transfer from Osaka City / Namba / Umeda to Kansai International Airport,within_city_transfer,live
+TRA_56323,ATRA_57819,japan-explorer,68dff17dec31f620f2d1d9f0,Japan Explorer,1,1,replaced,,TRA_56323,One way transfer from Narita Airport to Tokyo City Centre/Shinjuku Hotel,within_city_transfer,live
+TRA_56331,ATRA_57822,japan-explorer,68dff17dec31f620f2d1d9f0,Japan Explorer,9,1,replaced,,TRA_56331,One way transfer from Osaka City / Namba / Umeda to Kansai International Airport,within_city_transfer,live
+TRA_56323,ATRA_57819,japan-tech-trek,68dff17dec31f620f2d1d9ef,Japan Tech Trek,1,1,replaced,,TRA_56323,One way transfer from Narita Airport to Tokyo City Centre/Shinjuku Hotel,within_city_transfer,live
+TRA_56323,ATRA_57819,japan-tech-trek,68dff17dec31f620f2d1d9ef,Japan Tech Trek,4,1,replaced,,TRA_56323,One way transfer from Narita Airport to Tokyo City Centre/Shinjuku Hotel,within_city_transfer,live
+TRA_56331,ATRA_57822,japan-tech-trek,68dff17dec31f620f2d1d9ef,Japan Tech Trek,8,1,replaced,,TRA_56331,One way transfer from Osaka City / Namba / Umeda to Kansai International Airport,within_city_transfer,live
+TRA_56323,ATRA_57819,japans-modern-wonders,68dff17dec31f620f2d1d9ea,Japan's Modern Wonders,1,1,replaced,,TRA_56323,One way transfer from Narita Airport to Tokyo City Centre/Shinjuku Hotel,within_city_transfer,live
+RAIL_56327,RAIL_56327,japans-modern-wonders,68dff17dec31f620f2d1d9ea,Japan's Modern Wonders,4,2,replaced,,RAIL_56327,Train from Tokyo to Kyoto,across_city_transfer,live
+RAIL_56208,RAIL_56208,japans-modern-wonders,68dff17dec31f620f2d1d9ea,Japan's Modern Wonders,6,2,replaced,,RAIL_56208,Train from Kyoto to Osaka,across_city_transfer,live
+TRA_56331,ATRA_57822,japans-modern-wonders,68dff17dec31f620f2d1d9ea,Japan's Modern Wonders,8,1,replaced,,TRA_56331,One way transfer from Osaka City / Namba / Umeda to Kansai International Airport,within_city_transfer,live
+TRA_56323,ATRA_57819,ancient-japan-journey,68dff17dec31f620f2d1d9ed,Ancient Japan Journey,1,1,replaced,,TRA_56323,One way transfer from Narita Airport to Tokyo City Centre/Shinjuku Hotel,within_city_transfer,live
+TRA_56330,ATRA_57821,ancient-japan-journey,68dff17dec31f620f2d1d9ed,Ancient Japan Journey,6,1,replaced,,TRA_56330,One way transfer from Kansai International Airport to Osaka City / Namba / Umeda,within_city_transfer,live
+TRA_56331,ATRA_57822,ancient-japan-journey,68dff17dec31f620f2d1d9ed,Ancient Japan Journey,8,1,replaced,,TRA_56331,One way transfer from Osaka City / Namba / Umeda to Kansai International Airport,within_city_transfer,live
+TRA_56323,ATRA_57819,japan-thrills,68dff17dec31f620f2d1d9f1,Japan Thrills,1,1,replaced,,TRA_56323,One way transfer from Narita Airport to Tokyo City Centre/Shinjuku Hotel,within_city_transfer,live
+TRA_56331,ATRA_57822,japan-thrills,68dff17dec31f620f2d1d9f1,Japan Thrills,8,1,replaced,,TRA_56331,One way transfer from Osaka City / Namba / Umeda to Kansai International Airport,within_city_transfer,live
+TRA_56323,ATRA_57819,a-japenese-love-story,68e660e06d75b94945ca5dce,A Japenese Love Story,1,1,replaced,,TRA_56323,One way transfer from Narita Airport to Tokyo City Centre/Shinjuku Hotel,within_city_transfer,live
+RAIL_56327,RAIL_56327,a-japenese-love-story,68e660e06d75b94945ca5dce,A Japenese Love Story,5,1,replaced,,RAIL_56327,Train from Tokyo to Kyoto,across_city_transfer,live
+TRA_56326,ATRA_57828,a-japenese-love-story,68e660e06d75b94945ca5dce,A Japenese Love Story,8,1,replaced,,TRA_56326,One way transfer from Kyoto City Centre Hotel to Kansai International Airport,within_city_transfer,live
+TRA_56330,ATRA_57821,essence-of-japan,68e660e06d75b94945ca5ddb,Essence Of Japan,1,1,replaced,,TRA_56330,One way transfer from Kansai International Airport to Osaka City / Namba / Umeda,within_city_transfer,live
+RAIL_56210,RAIL_56210,essence-of-japan,68e660e06d75b94945ca5ddb,Essence Of Japan,5,1,replaced,,RAIL_56210,Train from Osaka to Tokyo,across_city_transfer,live
+TRA_56322,ATRA_57818,essence-of-japan,68e660e06d75b94945ca5ddb,Essence Of Japan,9,1,replaced,,TRA_56322,One way transfer from Tokyo City Centre Hotel to Haneda Airport,within_city_transfer,live
+TRA_56323,ATRA_57819,japan-family-quest,68e660e06d75b94945ca5de4,Japan Family Quest,1,1,replaced,,TRA_56323,One way transfer from Narita Airport to Tokyo City Centre/Shinjuku Hotel,within_city_transfer,live
+RAIL_56327,RAIL_56327,japan-family-quest,68e660e06d75b94945ca5de4,Japan Family Quest,5,1,replaced,,RAIL_56327,Train from Tokyo to Kyoto,across_city_transfer,live
+RAIL_56208,RAIL_56208,japan-family-quest,68e660e06d75b94945ca5de4,Japan Family Quest,8,1,replaced,,RAIL_56208,Train from Kyoto to Osaka,across_city_transfer,live
+TRA_56331,ATRA_57822,japan-family-quest,68e660e06d75b94945ca5de4,Japan Family Quest,11,1,replaced,,TRA_56331,One way transfer from Osaka City / Namba / Umeda to Kansai International Airport,within_city_transfer,live
+TRA_56330,ATRA_57821,japan-with-the-crew,68e660e06d75b94945ca5de5,Japan With The Crew,1,1,replaced,,TRA_56330,One way transfer from Kansai International Airport to Osaka City / Namba / Umeda,within_city_transfer,live
+RAIL_56210,RAIL_56210,japan-with-the-crew,68e660e06d75b94945ca5de5,Japan With The Crew,4,1,replaced,,RAIL_56210,Train from Osaka to Tokyo,across_city_transfer,live
+TRA_56324,ATRA_57820,japan-with-the-crew,68e660e06d75b94945ca5de5,Japan With The Crew,6,1,replaced,,TRA_56324,One way transfer from Tokyo City Centre/Shinjuku Hotel to Narita Airport,within_city_transfer,live
+TRA_56323,ATRA_57819,sakura-escape,68e660e06d75b94945ca5dec,Sakura Escape,1,1,replaced,,TRA_56323,One way transfer from Narita Airport to Tokyo City Centre/Shinjuku Hotel,within_city_transfer,live
+RAIL_56327,RAIL_56327,sakura-escape,68e660e06d75b94945ca5dec,Sakura Escape,4,1,replaced,,RAIL_56327,Train from Tokyo to Kyoto,across_city_transfer,live
+TRA_56326,ATRA_57828,sakura-escape,68e660e06d75b94945ca5dec,Sakura Escape,7,1,replaced,,TRA_56326,One way transfer from Kyoto City Centre Hotel to Kansai International Airport,within_city_transfer,live
+TRA_56330,ATRA_57821,the-japan-journey,68e660e06d75b94945ca5df6,The Japan Journey,1,1,replaced,,TRA_56330,One way transfer from Kansai International Airport to Osaka City / Namba / Umeda,within_city_transfer,live
+RAIL_56209,RAIL_56209,the-japan-journey,68e660e06d75b94945ca5df6,The Japan Journey,4,1,replaced,,RAIL_56209,Train from Osaka to Kyoto,across_city_transfer,live
+RAIL_56328,RAIL_56328,the-japan-journey,68e660e06d75b94945ca5df6,The Japan Journey,6,1,replaced,,RAIL_56328,Train from Kyoto to Tokyo,across_city_transfer,live
+TRA_56322,ATRA_57818,the-japan-journey,68e660e06d75b94945ca5df6,The Japan Journey,9,1,replaced,,TRA_56322,One way transfer from Tokyo City Centre Hotel to Haneda Airport,within_city_transfer,live
+TRA_56323,ATRA_57819,tokyo-kyoto-discovery,68e660e06d75b94945ca5dfb,Tokyo & Kyoto Discovery,1,1,replaced,,TRA_56323,One way transfer from Narita Airport to Tokyo City Centre/Shinjuku Hotel,within_city_transfer,live
+RAIL_56327,RAIL_56327,tokyo-kyoto-discovery,68e660e06d75b94945ca5dfb,Tokyo & Kyoto Discovery,4,1,replaced,,RAIL_56327,Train from Tokyo to Kyoto,across_city_transfer,live
+TRA_56326,ATRA_57828,tokyo-kyoto-discovery,68e660e06d75b94945ca5dfb,Tokyo & Kyoto Discovery,6,1,replaced,,TRA_56326,One way transfer from Kyoto City Centre Hotel to Kansai International Airport,within_city_transfer,live
