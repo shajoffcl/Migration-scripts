@@ -1,0 +1,12 @@
+[project]
+name = "scripts"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "bson>=0.5.10",
+    "dotenv>=0.9.9",
+    "pandas>=3.0.3",
+    "pymongo>=4.17.0",
+]
